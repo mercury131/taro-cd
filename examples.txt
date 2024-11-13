@@ -1,0 +1,4 @@
+curl -X POST -H "Content-Type: application/json" -d '{"num_cards": 5}' http://localhost:5000/draw
+
+curl http://localhost:5000/cards
+

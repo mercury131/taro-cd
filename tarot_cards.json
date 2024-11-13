@@ -1,0 +1,414 @@
+{
+  "The Fool": {
+    "arcana": "Major",
+    "number": 0,
+    "upright_value": 10,
+    "reversed_value": -10
+  },
+  "The Magus": {
+    "arcana": "Major",
+    "number": 1,
+    "upright_value": 8,
+    "reversed_value": -8
+  },
+  "The Priestess": {
+    "arcana": "Major",
+    "number": 2,
+    "upright_value": 6,
+    "reversed_value": -6
+  },
+  "The Empress": {
+    "arcana": "Major",
+    "number": 3,
+    "upright_value": 9,
+    "reversed_value": -9
+  },
+  "The Emperor": {
+    "arcana": "Major",
+    "number": 4,
+    "upright_value": 7,
+    "reversed_value": -7
+  },
+  "The Hierophant": {
+    "arcana": "Major",
+    "number": 5,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "The Lovers": {
+    "arcana": "Major",
+    "number": 6,
+    "upright_value": 8,
+    "reversed_value": -8
+  },
+  "The Chariot": {
+    "arcana": "Major",
+    "number": 7,
+    "upright_value": 7,
+    "reversed_value": -7
+  },
+  "Adjustment": {
+    "arcana": "Major",
+    "number": 8,
+    "upright_value": 8,
+    "reversed_value": -8
+  },
+  "The Hermit": {
+    "arcana": "Major",
+    "number": 9,
+    "upright_value": 7,
+    "reversed_value": -7
+  },
+  "Fortune": {
+    "arcana": "Major",
+    "number": 10,
+    "upright_value": 10,
+    "reversed_value": -10
+  },
+  "Lust": {
+    "arcana": "Major",
+    "number": 11,
+    "upright_value": 8,
+    "reversed_value": -8
+  },
+  "The Hanged Man": {
+    "arcana": "Major",
+    "number": 12,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Death": {
+    "arcana": "Major",
+    "number": 13,
+    "upright_value": 10,
+    "reversed_value": -10
+  },
+  "Art": {
+    "arcana": "Major",
+    "number": 14,
+    "upright_value": 8,
+    "reversed_value": -8
+  },
+  "The Devil": {
+    "arcana": "Major",
+    "number": 15,
+    "upright_value": 7,
+    "reversed_value": -7
+  },
+  "The Tower": {
+    "arcana": "Major",
+    "number": 16,
+    "upright_value": 8,
+    "reversed_value": -8
+  },
+  "The Star": {
+    "arcana": "Major",
+    "number": 17,
+    "upright_value": 9,
+    "reversed_value": -9
+  },
+  "The Moon": {
+    "arcana": "Major",
+    "number": 18,
+    "upright_value": 7,
+    "reversed_value": -7
+  },
+  "The Sun": {
+    "arcana": "Major",
+    "number": 19,
+    "upright_value": 10,
+    "reversed_value": -10
+  },
+  "The Aeon": {
+    "arcana": "Major",
+    "number": 20,
+    "upright_value": 9,
+    "reversed_value": -9
+  },
+  "The Universe": {
+    "arcana": "Major",
+    "number": 21,
+    "upright_value": 8,
+    "reversed_value": -8
+  },
+  "Ace of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 1,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Two of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 2,
+    "upright_value": 4,
+    "reversed_value": -4
+  },
+  "Three of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 3,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Four of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 4,
+    "upright_value": 4,
+    "reversed_value": -4
+  },
+  "Five of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 5,
+    "upright_value": -5,
+    "reversed_value": 5
+  },
+  "Six of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 6,
+    "upright_value": 6,
+    "reversed_value": -6
+  },
+  "Seven of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 7,
+    "upright_value": 4,
+    "reversed_value": -4
+  },
+  "Eight of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 8,
+    "upright_value": 6,
+    "reversed_value": -6
+  },
+  "Nine of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 9,
+    "upright_value": 6,
+    "reversed_value": -6
+  },
+  "Ten of Wands": {
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 10,
+    "upright_value": -6,
+    "reversed_value": 6
+  },
+  "Ace of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 1,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Two of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 2,
+    "upright_value": 6,
+    "reversed_value": -6
+  },
+  "Three of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 3,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Four of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 4,
+    "upright_value": -4,
+    "reversed_value": 4
+  },
+  "Five of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 5,
+    "upright_value": -5,
+    "reversed_value": 5
+  },
+  "Six of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 6,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Seven of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 7,
+    "upright_value": -5,
+    "reversed_value": 5
+  },
+  "Eight of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 8,
+    "upright_value": -4,
+    "reversed_value": 4
+  },
+  "Nine of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 9,
+    "upright_value": 6,
+    "reversed_value": -6
+  },
+  "Ten of Cups": {
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 10,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Ace of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 1,
+    "upright_value": 6,
+    "reversed_value": -6
+  },
+  "Two of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 2,
+    "upright_value": 0,
+    "reversed_value": 0
+  },
+  "Three of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 3,
+    "upright_value": -5,
+    "reversed_value": 5
+  },
+  "Four of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 4,
+    "upright_value": 4,
+    "reversed_value": -4
+  },
+  "Five of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 5,
+    "upright_value": -6,
+    "reversed_value": 6
+  },
+  "Six of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 6,
+    "upright_value": 4,
+    "reversed_value": -4
+  },
+  "Seven of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 7,
+    "upright_value": -5,
+    "reversed_value": 5
+  },
+  "Eight of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 8,
+    "upright_value": -4,
+    "reversed_value": 4
+  },
+  "Nine of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 9,
+    "upright_value": -6,
+    "reversed_value": 6
+  },
+  "Ten of Swords": {
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 10,
+    "upright_value": -6,
+    "reversed_value": 6
+  },
+  "Ace of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 1,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Two of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 2,
+    "upright_value": 4,
+    "reversed_value": -4
+  },
+  "Three of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 3,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Four of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 4,
+    "upright_value": 6,
+    "reversed_value": -6
+  },
+  "Five of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 5,
+    "upright_value": -5,
+    "reversed_value": 5
+  },
+  "Six of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 6,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Seven of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 7,
+    "upright_value": -4,
+    "reversed_value": 4
+  },
+  "Eight of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 8,
+    "upright_value": 5,
+    "reversed_value": -5
+  },
+  "Nine of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 9,
+    "upright_value": 6,
+    "reversed_value": -6
+  },
+  "Ten of Disks": {
+    "arcana": "Minor",
+    "suit": "Disks",
+    "number": 10,
+    "upright_value": 5,
+    "reversed_value": -5
+  }
+}
