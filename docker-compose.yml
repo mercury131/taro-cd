@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  tarot-app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - SENTIMENT_API_URL=http://sentiment:5001
+      - TWITTER_SCRAPER_URL=http://twitter-scraper:5002
+      - USE_LLAMA=true
+    depends_on:
+      - sentiment
+      - twitter-scraper
+
+  sentiment:
+    build: ./sentiment_service
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./models:/models
+    environment:
+      - MODEL_PATH=/models/llama-3-8b-instruct.Q4_K_M.gguf
+
+  twitter-scraper:
+    build: ./twitter_scraper
+    ports:
+      - "5002:5002"
