@@ -19,6 +19,148 @@ This API can be integrated into your CI/CD pipeline to automate the decision-mak
 The Tarot CD API uses the Thoth Tarot deck, designed by the famous occultist Aleister Crowley. This deck is known for its depth of symbolism and esoteric significance, making it a powerful tool for divination and spiritual exploration.
 Each card in the Thoth Tarot deck has two possible meanings: an upright (positive) interpretation and a reversed (negative) interpretation. The API takes these nuances into account when generating the reading.
 
+# Tarot CD API v2.0 🌙✨
+
+**Esoteric-Technological Solution for CI/CD**  
+*Now with Astrological Integration and AI Analytics*
+
+## Release Notes (v2.0)
+### New Features:
+- 🌕 Real-time moon phase tracking
+- 👤 Personalization by name (special logic for "Olegs")
+- 🕰 Temporal factors: "Friday Evening Curse"
+- 💹 Zimbabwe Dollar (ZWL) exchange rate integration
+- 🐦 Elon Musk & Dasha Koreyka tweet analysis
+- 🤖 Neural sentiment analysis (Llama3-8B)
+- 🐳 Microservice architecture with Docker
+
+### Known Limitations:
+- 🚫 Twitter scraping may trigger CAPTCHAs
+- ⏳ Sentiment analysis requires 4+ GB RAM
+- 🌙 Moon phase accuracy ±2 days
+
+## Enhanced Features
+
+### 🔮 Advanced Prediction System
+Now considers:
+1. **Astrological Factors**
+   - Current moon phase
+   - Zodiac sign of responsible person
+   - Planetary alignment
+
+2. **Social Signals**
+   - Latest tweet sentiment
+   - Social media activity
+   - Content virality
+
+3. **Economic Indicators**
+   - ZWL exchange rate
+   - Cryptocurrency trends
+   - Stock market indices
+
+## Updated API Endpoints
+
+### Basic Endpoints
+
+* GET /cards: Returns full card list with metadata
+
+#### POST /draw (New Format)
+**Example Request:**
+```json
+{
+  "num_cards": 5,
+  "user_info": {
+    "name": "Oleg Neurosvetov",
+    "age": 42,
+    "zodiac": "Cancer"
+  }
+}
+
+```
+**Example Response:**
+```json
+{
+  "reading": "bad",
+  "num_cards": 5,
+  "drawn_cards": "The Tower, Judgement, The Moon, The Sun, The World",
+  "factors": {
+    "moon_phase": 72.3,
+    "zwl_rate": 860,
+    "sentiment_score": -34.5,
+    "oleg_effect": true,
+    "friday_evening": false
+  }
+}
+```
+
+## System Setup 🚀
+
+### Requirements:
+* Docker 20.10+
+* Docker Compose 1.29+
+* 8+ GB RAM
+* Llama3-8B model (GGUF format)
+
+### Installation
+
+Download Llama3 model:
+```
+mkdir -p models && wget -P models https://example.com/path/to/llama-3-8b-instruct.Q4_K_M.gguf
+```
+Start the system:
+```
+docker-compose up --build
+```
+
+API will be available at http://localhost:5000
+
+Microservice Architecture 🧩
+```mermaid
+graph TD
+    A[Tarot API] --> B[Twitter Scraper]
+    A --> C[Sentiment Analysis]
+    C --> D[Llama3-8B]
+    B --> E[Headless Browser]
+```
+
+### Environment Configuration
+#### Variable	Description
+* **USE_LLAMA**	- Enable AI analysis (true/false)
+* **SENTIMENT_API_URL**	- Sentiment analysis service URL
+* **TWITTER_SCRAPER_URL**	- Twitter scraping service URL
+
+
+### CI/CD Example (GitLab) 🤖
+```
+deploy:
+  stage: deploy
+  variables:
+    USE_LLAMA: "true"
+  script:
+    - docker-compose up -d
+    - READING=$(curl -X POST -H "Content-Type: application/json" -d '{"num_cards": 5}' http://tarot-api:5000/draw | jq -r '.reading')
+    - if [ "$READING" = "good" ]; then
+        echo "🚀 Deployment approved! Moons are aligned!";
+      else
+        echo "🔮 Deployment blocked! Cards warn of danger!";
+        exit 1;
+      fi
+```
+### **Critical Warnings ⚠️**
+
+* Friday Evenings:
+    - All deployments after 6 PM Friday receive +30% failure chance.
+
+* Oleg Effect:
+    - If responsible person is named Oleg, positive predictions are reduced by 60%.
+
+* Lunar Influence:
+    - New moon increases deployment success probability by 15%.
+
+# Docs for old releases
+
+# Tarot CD API v1.0 🌙✨
+
 ## API Endpoints
 The Tarot CD API provides the following endpoints:
 
